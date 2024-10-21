@@ -81,16 +81,20 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: 'Discord',
-    src: '/instagram.svg',
-  },
-  {
     name: 'Facebook',
     src: '/facebook.svg',
   },
   {
-    name: 'Instagram',
+    name: 'Discord',
     src: '/discord.svg',
+  },
+  {
+    name: 'Linkedin',
+    src: '/linkedin.svg',
+  },
+  {
+    name: 'GitHub',
+    src: '/gitwhite.png',
   },
 ];
 
@@ -120,10 +124,10 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: 'Material UI',
-    Image: '/mui.png',
-    width: 80,
-    height: 80,
+    skill_name: 'Shadcn Components',
+    Image: '/shadcn.png',
+    width: 65,
+    height: 65,
   },
   {
     skill_name: 'React',
@@ -177,22 +181,10 @@ export const Backend_skill = [
     height: 40,
   },
   {
-    skill_name: 'Fire base',
-    Image: '/Firebase.png',
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: 'Postger SQL',
-    Image: '/postger.png',
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: 'My SQL',
-    Image: '/mysql.png',
-    width: 70,
-    height: 70,
+    skill_name: 'MS SQL Server',
+    Image: '/microsoft-sql-server.svg',
+    width: 90,
+    height: 90,
   },
   {
     skill_name: 'Prisma',
@@ -200,47 +192,43 @@ export const Backend_skill = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: 'Graphql',
-    Image: '/graphql.png',
-    width: 80,
-    height: 80,
-  },
 ];
 
-export const Full_stack = [
-  {
-    skill_name: 'React Native',
-    Image: '/ReactNative .png',
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: 'Tauri',
-    Image: '/tauri.svg',
-    width: 70,
-    height: 70,
-  },
+export const Other_skill = [
   {
     skill_name: 'Docker',
     Image: '/docker.webp',
     width: 70,
     height: 70,
   },
-
   {
-    skill_name: 'Figma',
-    Image: '/figma.png',
-    width: 50,
-    height: 50,
+    skill_name: 'Kubernetes',
+    Image: '/kubernetes.svg',
+    width: 70,
+    height: 70,
   },
-];
-
-export const Other_skill = [
   {
-    skill_name: 'Go',
-    Image: '/go.png',
-    width: 60,
-    height: 60,
+    skill_name: 'Linux',
+    Image: '/linux.svg',
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: 'Git',
+    Image: '/git.svg',
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: 'GitHub',
+    Image: '/gitwhite.png',
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: 'Vim',
+    Image: '/vim.svg',
+    width: 70,
+    height: 70,
   },
 ];
